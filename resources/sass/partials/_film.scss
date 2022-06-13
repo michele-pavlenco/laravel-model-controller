@@ -1,0 +1,19 @@
+.container{
+        width: 80%;
+        margin: 0 auto;
+        height: 100vh;
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            width: 30vh;
+            height: 20vh;
+            margin: 15px 10px;
+        }
+    }
+    .debug{
+        border: 1px solid black;
+    }
+}

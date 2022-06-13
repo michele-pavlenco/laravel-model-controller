@@ -10273,3 +10273,22 @@ readers do not read off random characters that represent icons */
 .fa-zhihu:before {
   content: "\F63F";
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+}
+.container ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container ul li {
+  width: 30vh;
+  height: 20vh;
+  margin: 15px 10px;
+}
+.container .debug {
+  border: 1px solid black;
+}

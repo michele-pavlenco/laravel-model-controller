@@ -8,12 +8,17 @@
     <title>Movies</title>
 </head>
 <body>
-    <h1>ciao</h1>
-    <ul>
-        @foreach ($movies as $movie)
-        <li>{{$movie->title}}</li>
-        @endforeach
+    <div class="container">
+    <ul class="debug">
+        <li class="debug">card contnt </li>
+        <li class="debug">card contnt </li>
+        <li class="debug">card contnt </li>
+        <li class="debug">card contnt </li>
+        <li class="debug">card contnt </li>
+        {{-- @foreach($movies as $movie) --}}
+        {{-- <li>{{$movie->title}}</li> --}}
+        {{-- @endforeach --}}
     </ul>
-    
+</div>
 </body>
 </html>
